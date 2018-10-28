@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationFramework.WEB", "AutomationFramework.WEB\AutomationFramework.WEB.csproj", "{02EF2DF5-20F6-4B9B-BDBB-29F75D8BF3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTesting.WebDriverDemo", "AutomationTesting.WebDriverDemo\AutomationTesting.WebDriverDemo.csproj", "{02B5585F-D0DF-494C-9E63-1EE4625B34B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02EF2DF5-20F6-4B9B-BDBB-29F75D8BF3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EF2DF5-20F6-4B9B-BDBB-29F75D8BF3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EF2DF5-20F6-4B9B-BDBB-29F75D8BF3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EF2DF5-20F6-4B9B-BDBB-29F75D8BF3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B5585F-D0DF-494C-9E63-1EE4625B34B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B5585F-D0DF-494C-9E63-1EE4625B34B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B5585F-D0DF-494C-9E63-1EE4625B34B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B5585F-D0DF-494C-9E63-1EE4625B34B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E94D77E1-19EF-44BA-AE65-BA62291FB70C}
+	EndGlobalSection
+EndGlobal
