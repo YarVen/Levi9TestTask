@@ -74,9 +74,9 @@ namespace AutomationTesting.WebDriverDemo.Tests.StepDefinitions
         public void ThenICanSeeUAHConvertedPurchSumIsCorrect(int amount)
         {
             MainPage mainPage = Page.Create<MainPage>();
-            decimal receivedConvertedSum = ScenarioContext.Current.Get<decimal>(SharedSteps.CURRENT_AMOUNT);
-            decimal expectedSum = decimal.Parse(mainPage.ExchangeRatesList.Items.First(el => el.Сurrency.GetText() == "USD").Sale.GetText()) * amount;
-            Assert.AreEqual(expectedSum, receivedConvertedSum);
+            decimal receivedConvertedAmount = ScenarioContext.Current.Get<decimal>(SharedSteps.CURRENT_AMOUNT);
+            decimal expectedAmount = decimal.Parse(mainPage.ExchangeRatesList.Items.First(el => el.Сurrency.GetText() == "USD").Sale.GetText()) * amount;
+            Assert.AreEqual(expectedAmount, receivedConvertedAmount);
         }
 
         [Then(@"I can see the Amount field is empty")]
